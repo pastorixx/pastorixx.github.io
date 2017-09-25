@@ -2,6 +2,9 @@ export default {
     "header": {
         "title": "Hi, I am Roman Khomenko ;)"
     },
+    "footer": {
+        "copyright": "Copyright © 2017 by Roman Khomenko."
+    },
     "about": {
         "name": "About Me",
         "description": "I'm a web-developer with good knowledge and experience in web-project architecting. I have experience working with different programming languages and web frameworks. Before you start, I always study in detail the project, communicating with the customer, and make a plan of forthcoming works. When working on a project I am always in control of the quality of code and test it for possible errors."
@@ -139,14 +142,14 @@ export default {
                 "position": "Back End Developer",
                 "url": "https://salestools.io/",
                 "period": "2016 - ",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                "description": "Here I worked mainly with a backend. When developing, I used things like Laravel, Redis, ElasticSearch, Yii, Lumen."
             },
             {
                 "name": "a2design",
                 "position": "Web Developer",
                 "url": "http://www.a2design.ru/",
                 "period": "2015 - 2016",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+                "description": "I was engaged both as a frontend and as a backend. I managed to work with such frameworks as CakePHP, Kohana, OpenCart, WordPress, Laravel."
             }
         ],
     },
