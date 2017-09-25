@@ -1,17 +1,17 @@
 import React from 'react';
 import createReactClass  from 'create-react-class';
 
-var HeaderComponent = createReactClass({
+var FooterComponent = createReactClass({
 
   render() {
     return (
-        <header className="text-center">
+        <footer className="text-center">
             <div className="container">                 
-                <h1>{this.props.data.title}</h1>
+                <p>{this.props.data.copyright}</p>
             </div>            
-        </header>
+        </footer>
     );
   }
 });
 
-export default HeaderComponent;
+export default FooterComponent;
