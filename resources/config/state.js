@@ -1,6 +1,7 @@
 export default {
     "header": {
-        "title": "Hi, I am Roman Khomenko ;)"
+        "title": "Hi, I am Roman Khomenko ;)",
+        "image": "./public/img/header.jpg"
     },
     "footer": {
         "copyright": "Copyright © 2017 by Roman Khomenko."
@@ -141,7 +142,7 @@ export default {
                 "name": "SalesTools",
                 "position": "Back End Developer",
                 "url": "https://salestools.io/",
-                "period": "2016 - ",
+                "period": "2016 - 2017",
                 "description": "Here I worked mainly with a backend. When developing, I used things like Laravel, Redis, ElasticSearch, Yii, Lumen."
             },
             {
@@ -157,13 +158,13 @@ export default {
         "name": "Education",
         "list": [
             {
-                "name": "Omsk State Technical University (OmGTU)",
+                "name": "Omsk State Technical University (OmSTU)",
                 "position": "Master's degree in \"Computer Science and Engineering\"",
                 "url": "http://www.omgtu.ru/",
                 "period": "2013 - 2015"
             },
             {
-                "name": "Omsk State Technical University (OmGTU)",
+                "name": "Omsk State Technical University (OmSTU)",
                 "position": "Bachelor's degree of engineering and technology in  \"Computer Science and Engineering\"",
                 "url": "http://www.omgtu.ru/",
                 "period": "2009 - 2013"

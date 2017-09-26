@@ -1,6 +1,6 @@
-# pastorixx.github.io
+# - [My first React App](pastorixx.github.io)
 
-# Install
+## Install
 - npm i
 - npm run dev
 - npm run build

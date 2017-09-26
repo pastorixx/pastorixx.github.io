@@ -26,8 +26,12 @@ const loaders = [
         })
     },
     {
-        test: /\.woff2?$|\.ttf$|\.eot$|\.svg$|\.png|\.jpe?g|\.gif$/,
+        test: /\.woff2?$|\.ttf$|\.eot$|\.svg$/,
         loader: 'file-loader?name=../fonts/[name].[ext]'
+    },
+    { 
+        test: /\.png|\.jpe?g|\.gif$/,
+        loader: 'file-loader?name=../img/[name].[ext]'
     }
 ];
 
