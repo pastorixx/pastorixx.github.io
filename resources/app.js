@@ -8,6 +8,7 @@ import EducationComponent from './components/education';
 import SkillsComponent from './components/skills';
 import ContactsComponent from './components/contacts';
 import FooterComponent from './components/footer';
+import ButtonScrollComponent from './components/button-scroll';
 
 import initialState from './config/state';
 import './styles/sass/app.scss';
@@ -29,7 +30,8 @@ var ParentComponent = createReactClass({
                 <EducationComponent data={this.state.education} class="bg-color" />
                 <SkillsComponent data={this.state.skills} />
                 <ContactsComponent data={this.state.contacts} class="bg-color" />
-                <FooterComponent data={this.state.footer} />           
+                <FooterComponent data={this.state.footer} />
+                <ButtonScrollComponent scrollStepInPx="50" delayInMs="16.66"/>
             </div>
         );
     }

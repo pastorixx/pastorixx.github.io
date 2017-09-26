@@ -7,7 +7,7 @@ var EducationComponent = createReactClass({
     return (
         <section className={this.props.class}>
             <div className="container">
-                <span className="col-md-3"><h1>{this.props.data.name}</h1></span>
+                <span className="grow col-md-3"><h1>{this.props.data.name}</h1></span>
                 <span className="col-md-9">                   
                     <ul className="timeline">
                         {this.props.data.list.map((item, i) => 
@@ -21,7 +21,7 @@ var EducationComponent = createReactClass({
                                         <b>{item.position}</b>
                                     </div>
                                     <div className="timeline-body">
-                                        <a href={item.url}>{item.name}</a>
+                                        <a href={item.url} target="_blank">{item.name}</a>
                                     </div>
                                 </div>
                             </li>
