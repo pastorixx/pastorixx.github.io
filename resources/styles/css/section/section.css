@@ -1,0 +1,45 @@
+@import "./grow.css";
+@import "./timeline.css";
+@import "./skill.css";
+@import "./contact.css";
+
+section {
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+section:hover {
+    box-shadow:
+    0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+    
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    background:#EFFFF6;
+}
+
+section.bg-color {
+    background-color: #F0F0F0;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section a:hover { 
+    text-decoration: none;
+    color: #000000;
+} 

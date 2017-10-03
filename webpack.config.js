@@ -7,6 +7,11 @@ const plugins = [
     new ExtractTextPlugin('style.css', {
         allChunks: true
     }),
+    new webpack.ProvidePlugin({
+        $: "jquery/dist/jquery.min.js",
+        jQuery: "jquery/dist/jquery.min.js",
+        "window.jQuery": "jquery/dist/jquery.min.js"
+    })
 ];
 
 const loaders = [

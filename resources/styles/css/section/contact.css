@@ -1,0 +1,10 @@
+.contact-icon {
+    width: 16px;
+    margin-right: 20px;
+    font-size: 20px;    
+}
+
+.contact-name {
+    font-size: 18px;
+    display: inline-block;
+}

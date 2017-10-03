@@ -1,0 +1,27 @@
+.navbar {   
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a.switch-language {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background: rgba(240, 240, 240, 0.92);
+    }
+
+    .navbar-mobile-fixed-top {
+        top: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        z-index: 1030;
+    }
+}
+
+@media (min-width: 768px) {   
+    .navbar-brand {
+        display: none;
+    }
+}

@@ -13,17 +13,17 @@ var ButtonScrollComponent = createReactClass({
         if (window.pageYOffset === 0) {
             clearInterval(this.state.intervalId);
         }
-        window.scroll(0, window.pageYOffset - this.props.scrollStepInPx);
+        window.scroll(0, window.pageYOffset - this.props.data.step_px);
     },
     
     handleClick() {
-        let intervalId = setInterval(this.scrollStep.bind(this), this.props.delayInMs);
+        let intervalId = setInterval(this.scrollStep.bind(this), this.props.data.delay_ms);
         this.setState({ intervalId: intervalId });
     },
     
     render () {
         return (
-            <button title='Back to top' className='scroll' onClick={ this.handleClick }>
+            <button title={this.props.data.title} className='scroll' onClick={ this.handleClick }>
                 <i className="fa fa-chevron-up" aria-hidden="true"></i>
             </button>
         )

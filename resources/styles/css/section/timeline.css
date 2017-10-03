@@ -1,0 +1,15 @@
+.timeline li {
+    display: flex;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ADADAD;
+}
+
+.timeline .timeline-header {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.timeline .timeline-body a {
+    color: #7A7A7A;
+}
