@@ -1,4 +1,4 @@
-## [My first React App](https://pastorixx.github.io)
+## [Demo React App](https://pastorixx.github.io)
 
 ## Install
 - npm i
